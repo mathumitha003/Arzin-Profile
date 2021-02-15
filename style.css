@@ -1,0 +1,54 @@
+h1{
+  color:aliceblue;
+}
+.Header{
+  border:solid;
+}
+.Fungames{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Arzin
+{
+  background-color:rgb(145, 42, 230) ;
+  display:flex;
+  justify-content: space-between;
+}
+.Games
+{
+  background-color: rgb(177, 245, 168);
+}
+.Grid
+{
+  background-color:rgb(154, 209, 226);
+}
+.Car
+{
+  background-color:rgb(166, 122, 223);
+}
+.Pong
+{
+  background-color:rgb(241, 201, 251)
+}
+.item{
+  position: relative;
+}
+
+.item p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity:0;
+}
+
+.item:hover p{
+  opacity: 1;
+}
+
+.item:hover img{
+  opacity: 0.33;
+} 
+
